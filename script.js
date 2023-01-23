@@ -1,6 +1,9 @@
 let string = "";
-let buttons = 
-document.querySelectorAll('.button');
+let buttons = document.querySelectorAll('.button');
+function demo(){
+  console.log('hello world!');
+}
+
 Array.from(buttons).forEach((button)=>{
   button.addEventListener('click', (e)=>{
     if(e.target.innerHTML == '='){
@@ -18,3 +21,4 @@ Array.from(buttons).forEach((button)=>{
       }
   })
 })
+  
