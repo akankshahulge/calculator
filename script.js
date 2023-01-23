@@ -37,7 +37,7 @@ Array.from(buttons).forEach((button) => {
      }
 
      else if (e.target.innerHTML == 'e') {
-      backspc();
+      evalue();
     }
 
     else if (e.target.innerHTML == 'sin'){
@@ -104,7 +104,7 @@ Array.from(buttons).forEach((button) => {
   }
 
   function evalue(){
-    string = 2.7182818285;
+    string = string*2.7182818285;
     document.querySelector("input").value = string;
   }
 
